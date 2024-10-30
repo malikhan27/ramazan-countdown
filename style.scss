@@ -1,0 +1,152 @@
+@font-face {
+    font-family: ali;
+    src: url(assets/fonts/Lobster-Regular.ttf)
+}
+
+body{
+    background-color: black ;
+}
+
+
+
+.head{   
+    background:linear-gradient(79deg, rgba(0,0,0,1) 0%, rgba(121,69,9,1) 35%, rgba(1,1,7,1) 70%, rgba(247,215,93,1) 100%);
+
+        h1{
+    font-family: ali;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    text-shadow: 2px 4px 6px rgb(197, 166, 26);
+    }
+    ::first-letter{font-size: 70px;}
+}
+
+.video{
+    position: relative;
+}
+
+.month-div{
+    border: 2px solid rgba(236, 219, 143, 0.822) ;
+}
+
+.count-div{
+    position: absolute;
+    z-index: 2;
+    h3{
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 4px 6px rgb(197, 166, 26);
+        font-size: 70px;
+    }
+    div{
+        font-size: 50px;
+        font-family: ali;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 4px 6px rgb(197, 166, 26);
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width:1500px) {
+    
+    .head{   
+        h1{
+    font-family: ali;
+    font-size: 70px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    }
+    ::first-letter{font-size: 100px;}
+}
+
+.count-div{
+    position: absolute;
+    z-index: 2;
+    h3{
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 4px 6px rgb(197, 166, 26);
+        font-size: 100px;
+    }
+    div{
+        font-size: 70px;
+        font-family: ali;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 4px 6px rgb(197, 166, 26);
+        text-align: center;
+    }
+}
+
+
+}
+
+@media screen and (max-width:1109px){
+    .img3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:739px){
+    .img2{
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+    .head{   
+        h1{
+    font-family: ali;
+    font-size: 30px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    }
+    ::first-letter{font-size: 40px;};
+
+    }
+    .img1{
+        height: 200px;
+        width: 300px;
+    }
+
+    .count-div{
+        position: absolute;
+        z-index: 2;
+        h3{
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 4px 6px rgb(197, 166, 26);
+            font-size: 20px;
+        }
+        div{
+            font-size: 18px;
+            font-family: ali;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 4px 6px rgb(197, 166, 26);
+            text-align: center;
+        }
+    
+}
+}
+
+@media screen and (max-width:876px) and (min-width:500px){
+
+    .count-div{
+        position: absolute;
+        z-index: 2;
+        h3{
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 4px 6px rgb(197, 166, 26);
+            font-size: 40px;
+        }
+        div{
+            font-size: 30px;
+            font-family: ali;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 4px 6px rgb(197, 166, 26);
+            text-align: center;
+            
+        }
+    
+}
+}
