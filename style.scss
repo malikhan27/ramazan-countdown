@@ -98,11 +98,12 @@ body{
     .head{   
         h1{
     font-family: ali;
-    font-size: 30px;
+    font-size: 20px;
     word-spacing: 3px;
     letter-spacing: 3px;
+    white-space: nowrap;
     }
-    ::first-letter{font-size: 40px;};
+    ::first-letter{font-size: 30px;};
 
     }
     .img1{
