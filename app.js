@@ -1,7 +1,7 @@
 
 
 ramadanCounter = () => {
-    var ramazandate= new Date("Feb 27 , 2025").getTime()
+    var ramazandate= new Date("Feb 28 , 2025").getTime()
     var todaysdate= new Date().getTime()
     var difference= ramazandate-todaysdate
     var month=Math.round(difference/(1000*60*60*24*30))
